@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#convas{
+    display: flex;
+    gap: 7px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.button{
+    width: 50px;
+    height: 50px;
+    /* border-radius: 40px; */
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+#grey{ background-color:  gray; }
+#white{ background-color: white;  border-color: lightblue;}
+#blue{ background-color: blue; }
+#yellow{ background-color: yellow; }
